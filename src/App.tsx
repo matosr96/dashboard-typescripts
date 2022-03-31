@@ -1,6 +1,8 @@
 import SidebarMenu from "./components/SidebarMenu";
 import { SidebarMenuCard, SidebarMenuItem } from "./types/types";
 import {FcAdvertising} from 'react-icons/fc';
+import perfil from './assets/img/perfil.png';
+
 
 function App() {
 
@@ -9,7 +11,7 @@ function App() {
       id: '1',
       label: 'Hola',
       icon: FcAdvertising,
-      url: '/'
+      url: '/',
     },
     {
       id: '2',
@@ -35,7 +37,7 @@ function App() {
     id: "card01",
     displayName: "Edgar Matos",
     title: "Developer",
-    photoUrl: "",
+    photoUrl: perfil,
     url: "/",
   }
 

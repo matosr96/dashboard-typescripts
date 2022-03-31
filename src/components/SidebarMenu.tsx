@@ -4,6 +4,7 @@ import { BiMenu } from "react-icons/bi";
 import classNames from "../utils/clases";
 import SidebarMenuCardView from "./SidebarMenuCardView";
 import SidebarMenuItemView from "./SidebarMenuItemView";
+import '../styles/SidebarMenu.scss';
 
 // es recomendable tener una interfaz que nos permita definir nuestras props
 interface SidebarMenuProps {
