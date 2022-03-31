@@ -1,0 +1,6 @@
+1. despues de crear el proyecto
+librerias instaladas
+react-icons
+node-sass
+
+npm i react-icons node-sass
